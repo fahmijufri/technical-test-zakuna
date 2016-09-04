@@ -1,0 +1,67 @@
+/*
+ * Style.css
+ */
+
+body {
+	font-family: "Arial";
+}
+
+.form{
+	text-align: center;
+	margin: 10% 30% 0 30%;
+	background-color: #E3E3E3;
+	border: 1px solid #AEAEAE;
+	padding: 10px;
+}
+
+.result{
+	text-align: center;
+	margin: 3% 30% 10% 30%;
+}
+
+.var {
+	width: 150px;
+	border: 2px solid #1543DB;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #1543DB;
+}
+
+.arrow {
+	margin: 20px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+.input {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #1A50FF;
+}
+
+input[type="text"] {
+	border: 2px solid #1A50FF;
+	padding: 5px 10px;
+	outline: none;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	color: #ffffff;
+	background-color: #1A50FF;
+	border: none;
+	padding: 10px;
+	font-size: 14px;
+	margin: 10px 0;
+	outline: none;
+	font-weight: bold;
+}
+input[type="submit"]:hover {
+	background-color: #1A50DD;
+	cursor: pointer;
+}
